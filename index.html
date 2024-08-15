@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="letter.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelop-wrapper">
+            
+            <div class="envelop">
+                <div class="letter">
+
+                    <div class="text">
+                        <strong>HELLO WORLD</strong>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio corporis modi quasi a facere ut minus deserunt, itaque facilis quos quia autem distinctio earum sequi excepturi nihil explicabo quod esse Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae aliquid eius odit omnis tenetur ullam, perspiciatis facilis debitis maxime, pariatur reprehenderit amet quibusdam unde velit voluptas magni nemo error sint.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="heart"></div>
+
+        </div>
+    </div>
+    <script>
+        const envelop = document.querySelector('.envelop-wrapper');
+        envelop.addEventListener('click', () => {
+            envelop.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
