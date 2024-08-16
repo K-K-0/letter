@@ -8,6 +8,30 @@
     --txt-color:#444;
     --heart-color:rgb(252,8,231);
 }
+.o{
+    height: 10px;
+    width: 10px;
+}
+strong{
+    margin-left: 30px;
+}
+.p{
+    height: 50px;
+    width: 50px;
+    margin-left: 56px;
+    margin-top: 10pxpx;
+}
+.q{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+.r{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 8px;
+}
 body{
     margin: 0;
     padding: 0;
@@ -74,7 +98,7 @@ body{
 }
 .heart{
     position: absolute;
-    top: 53%;
+    top: 55%;
     left: 50%;
     width: 15px;
     height: 15px;
